@@ -23,8 +23,12 @@
             <!-- Header-logo-->
             <div class="nav-right">
               <!-- logo -->
-              <img src="./img/medical_logo_1x_light.png" alt="Avada health">
-              <p class="Description-logo">Avada-health</p>
+              <img class="logo-header" src="./img/medical_logo_1x_light.png" alt="Avada health">
+            </div>
+            <div class="nav-left">
+              <ul class="list-contact">
+                <li v-for="element in listContact">{{element}}</li>
+              </ul>
             </div>
          </section>
 
