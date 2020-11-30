@@ -89,6 +89,7 @@ a{
  color: white;
  font-size: 50px;
  display: flex;
+ margin-bottom: 20px;
 }
 
 .life{
@@ -110,4 +111,67 @@ a{
  color: white;
  filter: opacity(.9);
  margin-top: 40px;
+}
+
+
+/* MAIN */
+
+
+/* section Avada health */
+
+.text-avada{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.welcome{
+ color: gray;
+ padding-top: 80px;
+ color: #0000008a;
+ padding-top: 80px;
+ filter: opacity(.7);
+ padding-bottom: 20px;
+}
+
+.description-welcome{
+ color: gray;
+ filter: opacity(.7);
+ width: 600px;
+ line-height: 1.7;
+}
+
+/* section methods */
+
+.container-methods{
+ display: flex;
+ justify-content: center;
+ list-style: none;
+ align-items: center;
+ width: 1170px;
+ margin: 0 auto;
+ text-align: center;
+ margin-top: 90px;
+}
+
+.method{
+ flex-basis: calc(100% / 4)
+}
+
+.methods-img{
+  margin-bottom: 10px;
+}
+
+.methods-style{
+ color: gray;
+ filter: opacity(.7);
+ margin-bottom: 20px;
+}
+
+
+.methods-description{
+  color: gray;
+  filter: opacity(.6);
+  line-height: 1.7;
 }
