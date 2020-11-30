@@ -1,0 +1,21 @@
+
+/* General Setting */
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+
+/* Setcion header-navbar */
+
+
+.app-header{
+ background-image: url("../img/header-image-homepage.jpg");
+ background-position: top;
+ height: 660px;
+ max-width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+}

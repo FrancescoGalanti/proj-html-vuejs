@@ -1,1 +1,1 @@
-proj-html-vuejs
+vue-boolflix
