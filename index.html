@@ -25,10 +25,13 @@
               <!-- logo -->
               <img class="logo-header" src="./img/medical_logo_1x_light.png" alt="Avada health">
             </div>
+            <!-- Header links -->
             <div class="nav-left">
+              <!-- List of links -->
               <ul class="list-contact">
-                <li v-for="element in listContact">{{element}}</li>
-              </ul>
+                <!-- Lopp of an array to print the list in html -->
+                <li :class="element.class" class="contact" v-for="element in listContact"><a href="#">{{element.name}}</a></li>
+             </ul>
             </div>
          </section>
 
@@ -39,7 +42,6 @@
 
 
     <!-- JS  -->
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./javascript/main.js"></script>
 </body>
 </html>
