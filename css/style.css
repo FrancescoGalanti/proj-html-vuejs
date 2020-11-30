@@ -14,10 +14,11 @@ a{
   color: white;
 }
 
-/* Deskot only 1500px */
+/* Deskot only */
 
-/* Header */
+/* HEADER */
 
+/* section-navbar */
 
 .app-header{
  background-image: url("../img/header-image-homepage.jpg");
@@ -45,6 +46,8 @@ a{
  margin-right: 100px;
 }
 
+
+
 .list-contact{
   display: flex;
   list-style: none;
@@ -52,14 +55,20 @@ a{
   color: #ffffff;
 }
 
-.home-style{
-  color:
+.Home-style{
+  color: #39afbb;
 }
-
-
 
 
 .contact{
-  filter: opacity(.7);
   padding-left: 30px;
 }
+
+.btn{
+  background-color: #39afbb;
+  min-width: 150px;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+/* Section caring */

@@ -30,9 +30,17 @@
               <!-- List of links -->
               <ul class="list-contact">
                 <!-- Lopp of an array to print the list in html -->
-                <li :class="element.class" class="contact" v-for="element in listContact"><a href="#">{{element.name}}</a></li>
+                <li  class="contact" v-for="element in listContact">
+                  <a :class="element.class" href="#">{{element.name}}</a>
+                </li>
              </ul>
             </div>
+         </section>
+          <!-- Section that describe the caring health -->
+         <section class="caring">
+           <div class="description-health">
+
+           </div>
          </section>
 
        </header>
