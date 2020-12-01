@@ -94,6 +94,7 @@ a{
  font-size: 50px;
  display: flex;
  margin-bottom: 20px;
+ font-weight: 100;
 }
 
 .life{
@@ -103,8 +104,10 @@ a{
 
 .description-caring{
  color: white;
- filter: opacity(.7);
- width: 450px;
+ filter: opacity(.8);
+ width: 525px;
+ font-size: 16px;
+ line-height: 1.5;
 }
 
 .btn-learn{
@@ -204,6 +207,7 @@ a{
  color: #41474f;
  padding-top: 10px;
  font-size: 30px;
+ font-weight: 100;
 }
 
 .line{
@@ -313,6 +317,7 @@ i.fab.fa-instagram{
  color: #41474f;
  padding-top: 10px;
  font-size: 30px;
+ font-weight: 100;
 }
 
 .health-description{
