@@ -67,13 +67,13 @@ a{
 
 .contact{
  padding-left: 30px;
+ font-weight: 200;
 }
 
 .btn{
  background-color: #39afbb;
- min-width: 150px;
- display: inline-block;
- padding: 5px 10px;
+ padding: 10px 15px;
+ filter: opacity(.9);
 }
 
 .caring-title{
