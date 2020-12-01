@@ -42,12 +42,13 @@ a{
  width: 1400px;
  padding-left: 20px;
  flex-wrap: wrap;
+ font-size: 10px;
 }
 
 .logo-header{
- height: 50px;
  font-size: 12px;
- margin-right: 100px;
+ margin-left: 30px;
+ height: 35px;
 }
 
 
@@ -104,7 +105,7 @@ a{
 
 .description-caring{
  color: white;
- filter: opacity(.8);
+ filter: opacity(.9);
  width: 525px;
  font-size: 16px;
  line-height: 1.5;
