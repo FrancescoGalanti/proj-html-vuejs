@@ -507,7 +507,7 @@ i.fab.fa-instagram{
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center ;
- height: 700px;
+ height: 670px;
 }
 
 .info-appointment{
@@ -515,14 +515,14 @@ i.fab.fa-instagram{
  justify-content: center;
  align-items: center;
  flex-direction: column;
- padding-top: 100px;
+ padding-top: 60px;
 }
 
 .title-appointment{
  color: white;
  padding-top: 10px;
  font-size: 26px;
- filter: opacity(.8);
+ filter: opacity(.7);
  font-weight: 300;
 }
 
@@ -611,7 +611,7 @@ i.fab.fa-instagram{
 
 .btn-input{
  flex-basis: calc(100% / 1);
- padding: 5px 10px;
+ padding: 10px 20px;
  background-color: #22b9f4de;;
  text-transform: uppercase;
  text-align: center;
