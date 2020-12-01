@@ -31,7 +31,7 @@ a{
  padding-top: 15px;
 }
 
-/* Deskot only */
+/* Deskot only 1500px */
 
 /* HEADER */
 
@@ -41,7 +41,7 @@ a{
  background-image: url("../img/header-image-homepage.jpg");
  max-width: 100%;
  background-repeat: no-repeat;
- background-size: cover;
+ background-size:  cover;
  background-position: top;
  height: 660px;
 }
