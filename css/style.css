@@ -7,6 +7,10 @@
  box-sizing: border-box;
 }
 
+body{
+ font-family: 'Lato', sans-serif;
+}
+
 /* Utilities */
 
 a{
@@ -354,4 +358,129 @@ i.fab.fa-instagram{
  font-size: 14px;
  padding-right: 10px;
  padding-left: 10px;
+}
+
+/* secion vision */
+
+.vision{
+ background-image: url("../img/paralax-bg-tour-facilities.jpg");
+ max-width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center ;
+ height: 540px;
+}
+
+.info-vision{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding-top: 100px;
+}
+
+.img-vision{
+ height: 50px;
+}
+
+.title-vision{
+ color: white;
+ padding-top: 10px;
+ font-size: 26px;
+ filter: opacity(.8);
+ font-weight: 300;
+}
+
+.line2{
+ border: 1px solid white;
+ width: 160px;
+ margin-top: 20px;
+}
+
+.description-vision{
+ color: white;
+ line-height: 2.5;
+ margin-top: 20px;
+ text-align: center;
+ width: 600px;
+ filter: opacity(.7);
+ margin-bottom: 25px;
+}
+
+.play{
+ height: 50px;
+}
+
+
+/* section caring */
+
+.list-care{
+ display: flex;
+ justify-content: center;
+ list-style: none;
+ margin: 0 auto;
+ align-items: center;
+ text-align: center;
+}
+
+.care{
+ flex-basis: calc(100% / 3 );
+ background-color:  #40c8e7;
+ height: 270px;
+ padding-top: 50px;
+ color: white;
+}
+
+.care-second{
+ flex-basis: calc(100% / 3 );
+ background-color: #1caeda;
+ height: 270px;
+ padding-top: 50px;
+ color: white;
+}
+
+.care-third{
+ flex-basis: calc(100% / 3 );
+ background-color: #1f7a96;
+ height: 270px;
+ padding-top: 50px;
+ color: white;
+}
+
+.weaver{
+ padding-top: 20px;
+}
+
+.description-weaver{
+ padding-left: 25px;
+ padding-right: 25px;
+ color: white;
+ filter: opacity(.8);
+ line-height: 2.3;
+ font-size: 14px;
+ margin-bottom: 20px;
+}
+
+.btn-weaver{
+ border: 1px solid white;
+ padding: 10px 20px;
+ color: white;
+ text-transform: uppercase;
+ font-size: 12px;
+}
+
+.more-style{
+ margin-left: 5px;
+ display: inline-block;
+}
+
+/* section appointment */
+
+.appointment{
+ background-image: url("../img/make-an-appointment.jpg");
+ max-width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: top center ;
+ height: 540px;
 }
