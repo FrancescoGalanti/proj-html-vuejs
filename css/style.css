@@ -225,7 +225,7 @@ a{
 }
 
 .line{
- border: 1px solid #8080808c;;
+ border: 1px solid #80808061;
  width: 160px;
  margin-top: 20px;
 }
@@ -412,8 +412,8 @@ i.fab.fa-instagram{
 }
 
 .line2{
- border: 1px solid white;
- width: 160px;
+ border: 1px solid  #ffffff96;
+ width: 170px;
  margin-top: 20px;
 }
 
@@ -422,7 +422,7 @@ i.fab.fa-instagram{
  line-height: 2.5;
  margin-top: 20px;
  text-align: center;
- width: 630px;
+ width: 500px;
  filter: opacity(.7);
  margin-bottom: 25px;
 }
