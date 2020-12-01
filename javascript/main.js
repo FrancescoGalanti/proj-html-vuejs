@@ -30,5 +30,17 @@ var app = new Vue({
      ],
    },
 
+   newName: "",
+
+   newEmail: "",
+
+   newPhone: "",
+
+   newDate: "",
+
+   newDate: "",
+
+   newHelp: "",
+
 
   });

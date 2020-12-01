@@ -212,9 +212,32 @@
              </ul>
            </div>
          </section>
-
+         <!-- section appointment -->
          <section class="appointment">
-
+           <div class="info-appointment">
+             <h2 class="title-appointment">Make an Appointment</h2>
+             <hr class="line2">
+             <p class="description-appointment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+           </div>
+          <!-- inputs -->
+           <div class="container-input-first">
+             <input v-model="newName" class="input-name" type="text" placeholder="name*">
+             <input v-model="newEmail" class="input-surname" type="text" name="" value="" placeholder="email*">
+           </div>
+           <!-- inputs -->
+           <div class="container-input-first padding-top-25px">
+             <input v-model="newPhone" class="input-phone" type="text" placeholder="Phone Number">
+             <div class="input-icons">
+               <i class="far fa-calendar-alt icon"></i>
+               <input v-model="newDate" class="input-email" type="text" name="" value="" placeholder="Appointment Date">
+             </div>
+           </div>
+           <div class="container-input-first padding-top-25px">
+             <textarea v-model="newHelp" class="input-text" type="text" name="" value="" placeholder="how can we help ?"></textarea>
+           </div>
+           <div class="container-input-first padding-top-15px">
+             <a class="btn-input" href="#">make an appointment</a>
+           </div>
          </section>
        </main>
     </div>

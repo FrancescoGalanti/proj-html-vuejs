@@ -13,9 +13,22 @@ body{
 
 /* Utilities */
 
+
+/* typo */
 a{
   text-decoration: none;
   color: white;
+}
+
+
+/* laoyut */
+
+.padding-top-25px{
+ padding-top: 25px;
+}
+
+.padding-top-15px{
+ padding-top: 15px;
 }
 
 /* Deskot only */
@@ -437,6 +450,11 @@ i.fab.fa-instagram{
  color: white;
 }
 
+.title-care{
+ font-weight: 700;
+ color: white;
+}
+
 .care-second{
  flex-basis: calc(100% / 3 );
  background-color: #1caeda;
@@ -489,4 +507,114 @@ i.fab.fa-instagram{
  background-size: cover;
  background-position: center ;
  height: 700px;
+}
+
+.info-appointment{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding-top: 100px;
+}
+
+.title-appointment{
+ color: white;
+ padding-top: 10px;
+ font-size: 26px;
+ filter: opacity(.8);
+ font-weight: 300;
+}
+
+.description-appointment{
+ color: white;
+ line-height: 2.5;
+ margin-top: 20px;
+ text-align: center;
+ width: 630px;
+ filter: opacity(.7);
+ margin-bottom: 25px;
+}
+
+.container-input-first{
+ display: flex;
+ width: 630px;
+ justify-content: center;
+ align-items: center;
+ margin: 0 auto;
+}
+
+.input-name{
+ margin-right: 15px;
+ flex-basis: calc(100% / 2);
+ background-color: inherit;
+ outline: 0;
+ border: 1px solid #ffffff70;
+ color: #ffffff70;
+ padding: 10px 15px;
+}
+
+.input-surname{
+ flex-basis: calc(100% / 2);
+ background-color: inherit;
+ outline: 0;
+ border: 1px solid #ffffff70;
+ color: #ffffff70;
+ padding: 10px 15px;
+}
+
+.input-phone{
+ margin-right: 15px;
+ flex-basis: calc(100% / 2);
+ background-color: inherit;
+ outline: 0;
+ border: 1px solid #ffffff70;
+ color: #ffffff70;
+ padding: 10px 15px;
+}
+
+.input-icons i {
+ position: absolute;
+}
+
+.input-icons {
+  flex-basis: calc(100% / 2);
+}
+
+.icon {
+ padding: 10px;
+ min-width: 40px;
+ color:  #ffffffa1;
+}
+
+
+.input-email{
+ background-color: inherit;
+ outline: 0;
+ border: 1px solid #ffffff70;
+ color: #ffffff70;
+ padding: 10px 35px;
+ width: 307px;
+}
+
+.input-text{
+  flex-basis: calc(100% / 1);
+  background-color: inherit;
+  outline: 0;
+  border: 1px solid #ffffff70;
+  color: #ffffff70;
+  padding-top: 15px;
+  padding-left: 15px;
+  height: 100px;
+  resize: none;
+}
+
+.btn-input{
+ flex-basis: calc(100% / 1);
+ padding: 5px 10px;
+ background-color: #22b9f4de;;
+ text-transform: uppercase;
+ text-align: center;
+ color: #ffffff9e;
+ font-weight: 700;
+ font-size: 14px;
 }
