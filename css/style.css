@@ -149,7 +149,7 @@ a{
  justify-content: center;
  list-style: none;
  align-items: center;
- width: 1170px;
+ width: 1050px;
  margin: 0 auto;
  text-align: center;
  margin-top: 90px;
@@ -167,11 +167,191 @@ a{
  color: gray;
  filter: opacity(.7);
  margin-bottom: 20px;
+ font-size: 16px;
 }
 
 
+
+
 .methods-description{
-  color: gray;
-  filter: opacity(.6);
-  line-height: 1.7;
+ color: gray;
+ filter: opacity(.6);
+ line-height: 1.9;
+ font-size: 14px;
+}
+/* section doctors */
+
+.doctors{
+ background-color: #80808017;
+ margin-top: 100px;
+ height: 1000px;
+}
+
+
+.meeting{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 90px;
+ flex-direction: column;
+}
+
+.title-meeting{
+ color: #41474f;
+ padding-top: 10px;
+ font-size: 30px;
+}
+
+.line{
+ border: 1px solid #8080808c;;
+ width: 160px;
+ margin-top: 20px;
+}
+
+.meeting-description{
+ color: #191616;
+ filter: opacity(.6);
+ line-height: 1.7;
+ margin-top: 20px;
+ text-align: center;
+ width: 600px;
+ margin-bottom: 40px;
+}
+
+
+.list-doctors{
+ display: flex;
+ justify-content: center;
+ list-style: none;
+ margin: 0 auto;
+ width: 1050px;
+}
+
+.doctor{
+ flex-basis: calc(100% / 3 );
+ background-color: white;
+ margin-right:  40px;
+ height: 540px;
+}
+
+.doctor-img{
+ width: 100%;
+ height: 250px;
+}
+
+.title-doctor{
+ color: #574141e6;
+ text-align: left;
+ padding-left: 30px;
+ padding-top: 30px;
+ padding-bottom: 15px;
+}
+
+.small-title-doctor{
+ color: #574141ba;
+ text-align: left;
+ padding-left: 30px;
+ padding-bottom: 30px;
+}
+
+.description-doctor{
+ color: #574141c2;
+ text-align: left;
+ padding-left: 30px;
+ line-height: 1.7;
+ font-size: 15px;
+}
+
+i.fab.fa-facebook-f{
+ margin-left: 30px;
+ font-size: 10px;
+ padding: 6px 9px;
+ color: white;
+ background-color: #0000ffbf;
+ margin-top: 40px;
+}
+
+i.fab.fa-twitter{
+ margin-left: 5px;
+ font-size: 10px;
+ padding: 6px 9px;
+ color: white;
+ background-color: #3fd5ee;
+ margin-top: 40px;
+}
+
+i.fab.fa-instagram{
+ margin-left: 5px;
+ font-size: 10px;
+ padding: 6px 9px;
+ color: white;
+ background-color: blue;
+ filter: opacity(.8);
+ margin-top: 40px;
+}
+
+/* sector health */
+
+.health-service{
+ background-color: white;
+ height: 1000px;
+}
+
+.health-info{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ padding-top: 90px;
+}
+
+.title-health{
+ color: #41474f;
+ padding-top: 10px;
+ font-size: 30px;
+}
+
+.health-description{
+ color: #191616;
+ filter: opacity(.6);
+ line-height: 1.7;
+ margin-top: 20px;
+ text-align: center;
+ width: 600px;
+}
+
+.list-center{
+ display: flex;
+ justify-content: center;
+ list-style: none;
+ align-items: center;
+ width: 1050px;
+ margin: 0 auto;
+ margin-top: 0px;
+ text-align: center;
+ margin-top: 90px;
+}
+
+.center{
+ flex-basis: calc(100% / 3);
+}
+
+.img-center{
+ margin-bottom: 10px;
+}
+
+.title-center{
+ color: gray;
+ filter: opacity(.7);
+ margin-bottom: 20px;
+ font-size: 16px;
+}
+
+.center-description{
+ color: gray;
+ filter: opacity(.6);
+ line-height: 1.9;
+ font-size: 14px;
+ padding-right: 10px;
+ padding-left: 10px;
 }
