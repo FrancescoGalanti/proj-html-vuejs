@@ -135,19 +135,19 @@ a{
 }
 
 .welcome{
- color: gray;
+ color: #23191691;
  padding-top: 80px;
- color: #0000008a;
- padding-top: 80px;
- filter: opacity(.7);
+ filter: opacity(.8);
  padding-bottom: 20px;
+ font-weight: 100;
 }
 
 .description-welcome{
- color: gray;
+ color:  #1d0e0ecf;
  filter: opacity(.7);
- width: 600px;
- line-height: 1.7;
+ width: 450px;
+ line-height: 2.1;
+ text-align: center;
 }
 
 /* section methods */
@@ -157,7 +157,7 @@ a{
  justify-content: center;
  list-style: none;
  align-items: center;
- width: 1050px;
+ width: 1200px;
  margin: 0 auto;
  text-align: center;
  margin-top: 90px;
@@ -175,7 +175,7 @@ a{
  color: gray;
  filter: opacity(.7);
  margin-bottom: 20px;
- font-size: 16px;
+ font-size: 20px;
 }
 
 
@@ -220,10 +220,10 @@ a{
 .meeting-description{
  color: #191616;
  filter: opacity(.6);
- line-height: 1.7;
+ line-height: 2.1;
  margin-top: 20px;
  text-align: center;
- width: 600px;
+ width: 630px;
  margin-bottom: 40px;
 }
 
@@ -324,10 +324,10 @@ i.fab.fa-instagram{
 .health-description{
  color: #191616;
  filter: opacity(.6);
- line-height: 1.7;
+ line-height: 2.1;
  margin-top: 20px;
  text-align: center;
- width: 600px;
+ width: 630px;
 }
 
 .list-center{
@@ -408,7 +408,7 @@ i.fab.fa-instagram{
  line-height: 2.5;
  margin-top: 20px;
  text-align: center;
- width: 600px;
+ width: 630px;
  filter: opacity(.7);
  margin-bottom: 25px;
 }
