@@ -52,7 +52,7 @@ a{
  justify-content: space-between;
  align-items: center;
  padding-top: 30px;
- width: 1400px;
+ width: 1450px;
  padding-left: 20px;
  flex-wrap: wrap;
  font-size: 10px;
@@ -218,10 +218,10 @@ a{
 }
 
 .title-meeting{
- color: #41474f;
+ color:  #41474fba;;
  padding-top: 10px;
  font-size: 30px;
- font-weight: 100;
+ font-weight: 400;
 }
 
 .line{
@@ -262,7 +262,7 @@ a{
 }
 
 .title-doctor{
- color: #574141e6;
+ color: #5741416b;
  text-align: left;
  padding-left: 30px;
  padding-top: 30px;
@@ -270,14 +270,14 @@ a{
 }
 
 .small-title-doctor{
- color: #574141ba;
+ color:  #57414142;
  text-align: left;
  padding-left: 30px;
  padding-bottom: 30px;
 }
 
 .description-doctor{
- color: #574141c2;
+ color: #57414154;
  text-align: left;
  padding-left: 30px;
  line-height: 2.5;
@@ -329,10 +329,10 @@ i.fab.fa-instagram{
 }
 
 .title-health{
- color: #41474f;
+ color: #41474fba;
  padding-top: 10px;
  font-size: 30px;
- font-weight: 100;
+ font-weight: 400;
 }
 
 .health-description{
