@@ -205,7 +205,7 @@ a{
 .doctors{
  background-color: #80808017;
  margin-top: 100px;
- height: 1000px;
+ height: 1100px;
 }
 
 
@@ -253,7 +253,7 @@ a{
  flex-basis: calc(100% / 3 );
  background-color: white;
  margin-right:  40px;
- height: 540px;
+ height: 600px;
 }
 
 .doctor-img{
@@ -280,8 +280,9 @@ a{
  color: #574141c2;
  text-align: left;
  padding-left: 30px;
- line-height: 1.7;
+ line-height: 2.5;
  font-size: 15px;
+ padding-right: 20px;
 }
 
 i.fab.fa-facebook-f{
