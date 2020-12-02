@@ -44,6 +44,8 @@ a{
  background-size:  cover;
  background-position: top;
  height: 660px;
+ object-fit: cover;
+ object-position: top;
 }
 
 
@@ -52,10 +54,10 @@ a{
  justify-content: space-between;
  align-items: center;
  padding-top: 30px;
- width: 1450px;
  padding-left: 20px;
  flex-wrap: wrap;
  font-size: 10px;
+ padding-right: 50px;
 }
 
 .logo-header{
@@ -170,7 +172,8 @@ a{
  justify-content: center;
  list-style: none;
  align-items: center;
- width: 1200px;
+ padding-left: 250px;
+ padding-right: 250px;
  margin: 0 auto;
  text-align: center;
  margin-top: 90px;
@@ -188,7 +191,7 @@ a{
  color: gray;
  filter: opacity(.7);
  margin-bottom: 20px;
- font-size: 20px;
+ font-size: 12px;
 }
 
 
@@ -246,7 +249,7 @@ a{
  justify-content: center;
  list-style: none;
  margin: 0 auto;
- width: 1050px;
+ width: 850px;
 }
 
 .doctor{
@@ -258,7 +261,7 @@ a{
 
 .doctor-img{
  width: 100%;
- height: 250px;
+ height: 260px;
 }
 
 .title-doctor{
@@ -344,20 +347,28 @@ i.fab.fa-instagram{
  width: 630px;
 }
 
+
+
 .list-center{
  display: flex;
  justify-content: center;
  list-style: none;
  align-items: center;
- width: 1050px;
  margin: 0 auto;
  margin-top: 0px;
  text-align: center;
  margin-top: 90px;
+ padding-left: 240px;
+ padding-right: 220px;
 }
 
 .center{
- flex-basis: calc(100% / 3);
+ flex-basis: 300px;
+ align-self: center;
+}
+
+.container-img{
+ width: 263px;
 }
 
 .img-center{
@@ -369,6 +380,7 @@ i.fab.fa-instagram{
  filter: opacity(.7);
  margin-bottom: 20px;
  font-size: 16px;
+ width: 263px;
 }
 
 .center-description{
@@ -376,8 +388,7 @@ i.fab.fa-instagram{
  filter: opacity(.6);
  line-height: 1.9;
  font-size: 14px;
- padding-right: 10px;
- padding-left: 10px;
+ width: 263px;
 }
 
 /* secion vision */
@@ -389,6 +400,7 @@ i.fab.fa-instagram{
  background-size: cover;
  background-position: center ;
  height: 540px;
+ margin-top: 50px;
 }
 
 .info-vision{
@@ -619,3 +631,43 @@ i.fab.fa-instagram{
  font-weight: 700;
  font-size: 14px;
 }
+
+
+/* section brand */
+
+
+.brands{
+  background-image: url("../img/rgb-gradient-bar-for-logo-carrasel.jpg");
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  height: 250px;
+}
+
+
+.list-brands{
+ display: flex;
+ list-style: none;
+}
+
+.brand-first{
+ flex-basis: 290px;
+}
+
+.brand-second{
+ flex-basis: 150px;
+ overflow: hidden;
+}
+
+.img-brand-second{
+ margin: -1px 1px 100px -140px;
+ height: 250px;
+}
+
+.brand-third{
+ flex-basis: 200px;
+ height: 250px;
+}
+
+.brand-
