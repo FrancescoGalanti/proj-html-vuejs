@@ -642,7 +642,7 @@ i.fab.fa-instagram{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center ;
-  height: 250px;
+  height: 200px;
 }
 
 
@@ -661,8 +661,8 @@ i.fab.fa-instagram{
 }
 
 .img-brand-second{
- margin: -1px 1px 100px -140px;
- height: 250px;
+ margin: -1px 1px 100px -110px;
+ height: 200px;
 }
 
 .brand-third{
@@ -670,4 +670,32 @@ i.fab.fa-instagram{
  height: 250px;
 }
 
-.brand-
+.img-brand-third{
+ height: 200px;
+}
+
+.brand-fourth{
+ flex-basis: 200px;
+}
+
+.img-brand-fourth{
+ height: 200px;
+}
+
+.brand-fith{
+ flex-basis: 200px;
+}
+
+.img-brand-fith{
+ height: 200px;
+}
+
+.brand-sixth{
+ flex-basis: 50px;
+ overflow: hidden;
+}
+
+.img-brand-sixth{
+ margin: -1px 1px 100px -40px;
+ height: 200px;
+}
