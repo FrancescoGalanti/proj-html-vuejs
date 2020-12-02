@@ -221,7 +221,7 @@
            </div>
           <!-- inputs -->
            <div class="container-input-first">
-             <input v-model="newName" class="input-name" type="text" placeholder="name*">
+             <input  v-model="newName" class="input-name" type="text" placeholder="name*">
              <input v-model="newEmail" class="input-surname" type="text" name="" value="" placeholder="email*">
            </div>
            <!-- inputs -->
@@ -236,7 +236,7 @@
              <textarea v-model="newHelp" class="input-text" type="text" name="" value="" placeholder="how can we help ?"></textarea>
            </div>
            <div class="container-input-first padding-top-15px">
-             <a class="btn-input" href="#">make an appointment</a>
+             <a @click="addingNewAppointment" class="btn-input" href="#">make an appointment</a>
            </div>
          </section>
        </main>
