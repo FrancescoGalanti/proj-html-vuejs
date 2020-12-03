@@ -630,6 +630,8 @@ i.fab.fa-instagram{
  color: #ffffff9e;
  font-weight: 700;
  font-size: 14px;
+ border: none;
+ cursor: pointer;
 }
 
 /* FOOTER */
@@ -742,6 +744,7 @@ i.fab.fa-instagram{
  font-size: 14px;
  color: gray;
  filter: opacity(.6);
+ width: 600px;
 }
 
 .line-information{
