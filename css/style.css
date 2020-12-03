@@ -632,6 +632,7 @@ i.fab.fa-instagram{
  font-size: 14px;
 }
 
+/* FOOTER */
 
 /* section brand */
 
@@ -698,4 +699,153 @@ i.fab.fa-instagram{
 .img-brand-sixth{
  margin: -1px 1px 100px -40px;
  height: 200px;
+}
+
+/* section footer */
+
+.list-footer{
+ display: flex;
+ justify-content: center;
+ margin: 0 auto;
+ list-style: none;
+}
+
+.container-logo{
+  display: flex;
+  justify-content: left;
+  padding-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+
+
+.logo-footer{
+ height: 40px;
+ width: 200px;
+}
+
+
+.lists{
+ flex-basis: 600px;
+}
+
+.lists-second{
+ padding-left: 30px;
+ flex-basis: 400px;
+}
+
+.description-iists{
+ padding-left: 50px;
+ text-align: left;
+ line-height: 2.1;
+ font-size: 14px;
+ color: gray;
+ filter: opacity(.6);
+}
+
+.line-information{
+ border: 1px solid  #807f7f54;
+ margin-left: 50px;
+ margin-top: 20px;
+}
+
+.title-information{
+ text-transform: uppercase;
+ font-size: 16px;
+ color: #00000070;
+ padding-left: 50px;
+ margin-top: 10px;
+}
+
+span{
+ padding-left: 3px;
+}
+
+.links{
+ padding-left: 20px;
+}
+
+i.fab.fa-youtube{
+ background-color: red;
+ color: white;
+ font-size: 10px;
+ padding: 6px 9px;
+}
+
+
+.title-contact{
+ font-size: 14px;
+ color:  #403434;
+ filter: opacity(.6);
+ text-transform: uppercase;
+ margin-bottom: 20px;
+ margin-top: 60px;
+ font-weight: 400;
+}
+
+.line-contact{
+ width: 30px;
+ border: 1px solid green;
+}
+
+.sub-list{
+ margin-top: 40px;
+}
+
+
+.sub-lists{
+ display: flex;
+ list-style: none;
+}
+
+.sub-lists i{
+ color: #64bad5;
+ padding-bottom: 15px;
+}
+
+.description-icon-map{
+ font-size: 14px;
+ color: gray;
+ filter: opacity(.6);
+ padding-left: 20px;
+}
+
+.description-icon-phone{
+ font-size: 14px;
+ color: gray;
+ filter: opacity(.6);
+ padding-left: 17px
+}
+
+
+.list-third{
+ flex-basis: 300px;
+}
+
+.tag{
+ background-color: #1ca3cc;
+ padding: 5px 10px;
+ border-radius: 50%;
+ color: white;
+ margin-bottom: 10px;
+}
+
+.description-icon{
+ font-size: 14px;
+ padding-left: 10px;
+ color: #8c6f6f;
+ padding-top: 5px;
+}
+
+
+.btn-view{
+ width: 100%;
+ border: 3px solid #0009;
+ padding: 10px 20px;
+ text-align: center;
+ text-transform: uppercase;
+ color: #000000a1;
+ font-size: 14px;
+ margin-top: 40px;
 }
